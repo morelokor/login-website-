@@ -1,2 +1,3 @@
-# login-website-
-its a website that i made in around 2-3 weeks because i was lazy and its has more than just a login screen
+please put the files in a folder then open it i use vsc vusial studio code but you can choose!
+
+its was kinda hard
