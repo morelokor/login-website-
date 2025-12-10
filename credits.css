@@ -1,0 +1,212 @@
+body, html{
+    cursor: url(Baldi\ Cursor.cur), auto;
+    height: 100vh;
+    background-color: #000;
+}
+
+@font-face {
+    font-family: "baldi";
+    src: url(You\ can\ think\ pad\ font.ttf);
+}
+
+.h11{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "baldi";
+    color: #fff;
+}
+
+.h11::selection{
+    background-color: #fff;
+    color: #000;
+}
+
+.pp::selection{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.pp{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-family: "baldi";
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+
+a:hover{
+  background: linear-gradient(270deg, #00ffbf, #4738d3, #008000, #b4c519, #00ffbf);
+  background-clip: text;
+  color: transparent;
+ -webkit-text-fill-color: transparent;
+   background-size: 400% 400%;
+  animation: anim1 0.5s linear infinite;
+  cursor: url(Baldi\ Cursor.cur), auto;
+}
+
+a::selection{
+    background-color: #fff;
+    color: #000;
+}
+
+@keyframes anim1{
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+.ppp{
+    text-align: center;
+    font-family: "baldi";
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.ppp::selection{
+    background-color: #fff;
+    color: #000;
+}
+
+.pppp{
+    text-align: center;
+    font-family: "baldi";
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.pppp::selection{
+    background-color: #fff;
+    color: #000;
+}
+
+
+a:hover{
+      background: linear-gradient(270deg, #00ffbf, #4738d3, #008000, #b4c519, #00ffbf);
+  background-clip: text;
+  color: transparent;
+ -webkit-text-fill-color: transparent;
+   background-size: 400% 400%;
+  animation: anim1 0.5s linear infinite;
+  cursor: url(Baldi\ Cursor.cur), auto;
+}
+
+
+.ppppp{
+    text-align: center;
+    font-family: "baldi";
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.ppppp::selection{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.div2{
+    position: absolute;
+    width: 1600px;
+    height: 200px;
+    left: 0;
+    bottom: 0;
+}
+
+
+.div1{
+    position: fixed;
+    width: 500px;
+    height: 60px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    background-color: transparent;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 30px #fff;
+}
+
+
+.div2:hover  .div1{
+    margin-bottom: 100px;
+}
+
+
+.img1{
+    position: absolute;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    left: 120px;
+    top: 1px;
+    transition: 0.2s ease-in-out;
+    padding: 10px;
+    border-radius: 5px;
+}
+.img1:hover{
+    box-shadow: inset 0px 0px 50px #2e2e2e;
+}
+
+
+
+.img2{
+    position: absolute;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    left: 180px;
+    top: 1px;
+    transition: 0.1s ease;
+    padding: 10px;
+    border-radius: 5px;
+}
+.img2:hover{
+    box-shadow: inset 0px 0px 50px rgb(46, 46, 46);
+}
+
+
+.img3{
+    position: absolute;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    left: 240px;
+    top: 1px;
+    transition: 0.1s ease;
+    padding: 10px;
+    border-radius: 5px;
+}
+.img3:hover{
+    box-shadow: inset 0px 0px 50px rgb(46, 46, 46);
+}
+
+
+.img4{
+    position: absolute;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    left: 300px;
+    top: 1px;
+    transition: 0.1s ease;
+    padding: 10px;
+    border-radius: 5px;
+}
+.img4:hover{
+    box-shadow: inset 0px 0px 50px rgb(46, 46, 46);
+}

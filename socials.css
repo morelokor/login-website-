@@ -1,0 +1,834 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html, body {
+	height: 100%;
+	cursor: url(RobloxCursor.cur), auto; 
+  }
+  
+  * {
+	cursor: inherit;
+  }
+
+body{
+  height: 10px;
+    background-color: #141414;
+}
+.line3{
+    z-index: 1;
+    position: absolute;
+    width: 30px;
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    top: 2px;
+    margin-left: -4px;
+    border-radius: 5px;
+    padding: 4px;
+}
+.line3:hover{
+    box-shadow: inset 0 0 50px  #383838;
+}
+.input{
+	display: none;
+	visibility: hidden;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1600px;
+    height: 41px;
+    background-color: #1F1F1F;
+    box-shadow: 0 0 5px rgb(36, 35, 35);
+}
+.bob2{
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  margin-left: 15px;
+  font-size: 19px;
+}
+.ul1 li {
+  list-style-type: none;
+  transition: all 0.3s ease;
+}
+
+li a{
+  letter-spacing: -.50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #c5c2c2;
+  width: 135px;
+  font-weight: 600;
+  text-decoration: none;  
+  display: inline-block;
+  padding: 10px;
+}
+
+li a:hover{
+  color: #ffffff;
+}
+
+.ul1 {
+  position: absolute;
+  top: 40px;
+  padding: 0px;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+  .slide{
+	position: fixed;
+  z-index: 2;
+	height: 96%;
+	width: 180px;
+	outline: none;
+  top: 42px;
+  left: -250px;
+	background: #1F1F1F;
+  }
+  .input:checked ~ .slide{
+	left: 0;
+}
+  .morelokorpic{
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 15px;
+    border-radius: 30px;
+    background-color: #d3cfcf;
+    width: 26px;
+  }
+.al .homeoff {
+  content: url("login_icon_grey.png");
+}
+
+.al:hover .homeoff {
+  content: url("login_icon_white.png");
+}
+
+.ar .refer {
+  content: url("refer_grey.png");
+}
+
+.ar:hover .refer {
+  content: url("refer_white.png");
+}
+
+  .homeoff{
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    width: 30px;
+    margin-top: -5px;
+    left: -10px;
+    position: absolute;
+  }
+    .refer{
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    width: 30px;
+    margin-top: -5px;
+    left: -10px;
+    position: absolute;
+  }
+  .as{
+    margin-left: 4px;
+  }
+  .ac:hover{
+  background: linear-gradient(45deg, red,green, black, blue, red ,white);
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: anim3 0.5s ease-in-out infinite;
+}
+
+
+@keyframes anim3{
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+  .baldi{
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    width: 30px;
+    margin-top: -5px;
+    left: -15px;
+    position: absolute;
+  }
+  .pepe{
+  letter-spacing: -.50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #c5c2c2;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;  
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    width: 107px;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 7px;
+    margin-left: 97px;
+    position: absolute;
+  }
+
+.pepe:hover + .divl {
+  opacity: 1;
+}
+.hard{
+  position: absolute;
+  top: 15px;
+  left: 130px;
+  width: 20px;
+}
+  .pepee{
+  letter-spacing: -.50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #c5c2c2;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;  
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    width: 79.99px;
+    height: 40px;
+    padding-right: 27px;
+    padding-left: 10px;
+    margin-top: 7px;
+    margin-left: 210px;
+    position: absolute;
+  }
+  .pepee:hover + .divr {
+    opacity: 1;
+}
+  .divr{
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    width: 130px;
+    height: 3px;
+    background-color: #fff;
+  }
+  .divl{
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none;
+    position: absolute;
+    top: 40px;
+    left: 78px;
+    width: 122px;
+    height: 3px;
+    background-color: #fff;
+  }
+  .pepeee{
+  letter-spacing: -.50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #c5c2c2;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;  
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    width: 79.99px;
+    height: 40px;
+    padding-right: 27px;
+    padding-left: 10px;
+    margin-top: 7px;
+    margin-left: 345px;
+    position: absolute;
+  }
+    .divc{
+    pointer-events: none;
+    position: absolute;
+    top: 40px;
+    opacity: 0;
+    left: 330px;
+    width: 122px;
+    height: 3px;
+    background-color: #fff;
+  }
+    .pepeee:hover + .divc {
+      opacity: 1;
+}
+  .pepeeee{
+  letter-spacing: -.50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #c5c2c2;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;  
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    width: 79.99px;
+    height: 40px;
+    padding-right: 27px;
+    padding-left: 10px;
+    margin-top: 7px;
+    margin-left: 467px;
+    position: absolute;
+  }
+    .divs{
+    pointer-events: none;
+    position: absolute;
+    top: 40px;
+    opacity: 0;
+    left: 452px;
+    width: 122px;
+    height: 3px;
+    background-color: #fff;
+  }
+      .pepeeee:hover + .divs {
+      opacity: 1;
+}
+.morelokorage{
+  position: absolute;
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  top: 5px;
+  left: 1430px;
+  border-radius: 30px;
+  border-radius: 50px;
+  background-color: #d3cfcf;
+  width: 33px;
+}
+.korys{
+  text-decoration: none;
+}
+.morelokornn{
+  position: absolute;
+  left: 1470px;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: -.50px;
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.morelokornn:hover{
+  text-decoration: underline;
+}
+  .roblox{
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    width: 30px;
+    margin-top: -5px;
+    left: -10px;
+    position: absolute;
+  }
+  .navr{
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 45px;
+  }
+
+.as:hover{
+  background: linear-gradient(45deg, blue,white,cyan,purple);
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: anim3 0.5s ease-in-out infinite;
+}
+
+
+@keyframes anim3{
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+  .linekor{
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 14px;
+    width: 150px;
+    height: 1px;
+    background-color: #2f2f30;
+  }
+  .morelokorn{
+  margin-top: 16px;
+  text-decoration: none;
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  height: 25px;
+  width: 100px;
+  position: absolute;
+  margin-left: 45px;
+  letter-spacing: -.50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  }
+  .agek13{
+  position: absolute;
+  width: 18px;
+  top: 4px;
+  left: 1545px;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: -.50px;
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  color: #c5c3c3;
+  font-family: 'Montserrat', sans-serif;
+  }
+  .math{
+  position: absolute;
+  top: 4px;
+  left: 1553px;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: -.50px;
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  color: #c5c3c3;
+  font-family: 'Montserrat', sans-serif;
+  }
+  .addf{
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    position: absolute;
+    margin-left: 25px;
+    top: 10pc;
+  }
+  .home{
+  position: absolute;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  letter-spacing: -.50px;
+  top: 50px;
+  margin-left: 10px;
+  }
+  .freind{
+  position: absolute;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: -.50px;
+  top: 120px;
+  margin-left: 10px;
+  }
+  .addfn{
+  z-index: 1;
+  position: absolute;
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  text-decoration: none;
+  color: #cecdcd;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 90px;
+  letter-spacing: -.50px;
+  top: 174px;
+  margin-left: 33px;
+  }
+  .addfn:hover{
+    text-decoration: underline;
+  }
+  .goingsheeeeeshpic{
+  position: absolute;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  letter-spacing: -.50px;
+  width: 89px;
+  border-radius: 50px;
+  background-color: #d3cfcf;
+  margin-left: 135px;
+  top: 170px;
+  }
+  .goingsheeeeeshn{
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  z-index: 1;
+  position: absolute;
+  text-decoration: none;
+  color: #cecdcd;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 90px;
+  letter-spacing: -.50px;
+  top: 174px;
+  margin-left: 130px;
+  }
+  .goingsheeeeeshn:hover{
+    text-decoration: underline;
+  }
+    .zeidpic{
+  position: absolute;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  letter-spacing: -.50px;
+  width: 89px;
+  border-radius: 50px;
+  background-color: #d3cfcf;
+  margin-left: 240px;
+  top: 170px;
+  }
+  .zeidn{
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  z-index: 1;
+  position: absolute;
+  text-decoration: none;
+  color: #cecdcd;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 90px;
+  padding-right: 40px;
+  padding-left: 40px;
+  letter-spacing: -.50px;
+  top: 174px;
+  margin-left: 234px;
+  }
+  .zeidn:hover{
+    text-decoration: underline;
+  }
+  .xxppic{
+  position: absolute;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  letter-spacing: -.50px;
+  width: 89px;
+  border-radius: 50px;
+  background-color: #d3cfcf;
+  margin-left: 345px;
+  top: 170px;
+  }
+  .xxpn{
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  z-index: 1;
+  position: absolute;
+  text-decoration: none;
+  color: #cecdcd;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 90px;
+  padding-right: 40px;
+  padding-left: 30px;
+  letter-spacing: -.50px;
+  top: 174px;
+  margin-left: 349px;
+  }
+  .xxpn:hover{
+    text-decoration: underline;
+  }
+  .qkcpic{
+  position: absolute;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  letter-spacing: -.50px;
+  width: 89px;
+  border-radius: 50px;
+  background-color: #d3cfcf;
+  margin-left: 450px;
+  top: 170px;
+  }
+  .qkcn{
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  z-index: 1;
+  position: absolute;
+  text-decoration: none;
+  color: #cecdcd;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 90px;
+  padding-right: 40px;
+  padding-left: 30px;
+  letter-spacing: -.50px;
+  top: 174px;
+  margin-left: 428px;
+  }
+  .qkcn:hover{
+    text-decoration: underline;
+  }
+  .ypcolxzpic{
+  position: absolute;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  letter-spacing: -.50px;
+  width: 89px;
+  border-radius: 50px;
+  background-color: #d3cfcf;
+  margin-left: 555px;
+  top: 170px;
+  }
+  .ypcolxzn{
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  z-index: 1;
+  position: absolute;
+  text-decoration: none;
+  color: #cecdcd;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 90px;
+  padding-right: 40px;
+  padding-left: 30px;
+  letter-spacing: -.50px;
+  top: 174px;
+  margin-left: 547px;
+  }
+  .ypcolxzn:hover{
+    text-decoration: underline;
+  }
+  .dareenpic{
+  position: absolute;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  letter-spacing: -.50px;
+  width: 89px;
+  border-radius: 50px;
+  background-color: #d3cfcf;
+  margin-left: 660px;
+  top: 170px;
+  }
+  .dareenn{
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  z-index: 1;
+  position: absolute;
+  text-decoration: none;
+  color: #cecdcd;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 90px;
+  padding-right: 40px;
+  padding-left: 30px;
+  letter-spacing: -.50px;
+  top: 174px;
+  margin-left: 666px;
+  }
+  .dareenn:hover{
+    text-decoration: underline;
+  }
+  .Domerpic{
+  position: absolute;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  letter-spacing: -.50px;
+  width: 89px;
+  border-radius: 50px;
+  background-color: #d3cfcf;
+  margin-left: 766px;
+  top: 170px;
+  }
+  .Domern{
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  z-index: 1;
+  position: absolute;
+  text-decoration: none;
+  color: #cecdcd;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 90px;
+  padding-right: 40px;
+  padding-left: 30px;
+  letter-spacing: -.50px;
+  top: 174px;
+  margin-left: 759px;
+  }
+  .Domern:hover{
+    text-decoration: underline;
+  }
+  .boodszzpic{
+  position: absolute;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  letter-spacing: -.50px;
+  width: 89px;
+  border-radius: 50px;
+  background-color: #d3cfcf;
+  margin-left: 873px;
+  top: 170px;
+  }
+  .boodszzn{
+  cursor: url(RobloxCursor_LinkSelect.cur), auto;
+  z-index: 1;
+  position: absolute;
+  text-decoration: none;
+  color: #cecdcd;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 90px;
+  padding-right: 40px;
+  padding-left: 30px;
+  letter-spacing: -.50px;
+  top: 174px;
+  margin-left: 860px;
+  }
+  .boodszzn:hover{
+    text-decoration: underline;
+  }
+  .sec1{
+  z-index: 1;
+  position: absolute;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: light;
+  font-size: 32px;
+  letter-spacing: -.50px;
+  top: 300px;
+  margin-left: 10px; 
+  }
+  .div1{
+    width: 250px;
+    height: 200px;
+    margin-top: 370px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+  .div1:hover{
+    box-shadow: inset 0px 0px 350px #2e2e2e;
+    height: 250px;
+  }
+  .div1:hover  .playb1{
+    opacity: 1;
+  }
+  .div1:hover{
+    scale: 1.1;
+  }
+  .div1:hover ~ .div2{
+    margin-top: -250px;
+    margin-left: 270px;
+  }
+  .youtubeld1{
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 235px;
+    border-radius: 5px;
+  }
+  .ytk1{
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -.50px;
+  margin-left: 10px;
+  margin-top: -46px;
+  }
+  .upt1{
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  .Rating1{
+    position: absolute;
+  color: #979797;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: -20px;
+  margin-left: 30px;
+  }
+  .playb1{
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+    border: none;
+    margin-top: 0.40pc;
+    margin-left: 5px;
+    background-color: #2828d6;
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .playb1:hover{
+    background-color: #4c4ceb;
+  }
+  .playb1:active{
+    background-color: #2f2fad;
+  }
+  .playi1{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: -15px;
+  }
+
+
+  .div2{
+    width: 250px;
+    height: 200px;
+    margin-top: -200px;
+    margin-left: 270px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+  .div2:hover{
+    box-shadow: inset 0px 0px 350px #2e2e2e;
+    height: 250px;
+  }
+  .div2:hover  .playb2{
+    opacity: 1;
+  }
+  .div2:hover{
+    scale: 1.1;
+  }
+  .tiktokld2{
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 235px;
+    border-radius: 5px;
+  }
+  .ytk2{
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -.50px;
+  margin-left: 10px;
+  margin-top: -46px;
+  }
+  .upt2{
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  .Rating2{
+    position: absolute;
+  color: #979797;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: -20px;
+  margin-left: 30px;
+  }
+  .playb2{
+    cursor: url(RobloxCursor_LinkSelect.cur), auto;
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+    border: none;
+    margin-top: 0.40pc;
+    margin-left: 5px;
+    background-color: #2828d6;
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .playb2:hover{
+    background-color: #4c4ceb;
+  }
+  .playb2:active{
+    background-color: #2f2fad;
+  }
+  .playi2{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: -15px;
+  }
